@@ -1,0 +1,52 @@
+#main{
+    background: #EBEBEB;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+p, h1, article{
+    color: #474747;
+}
+
+#img{
+    width: 80%;
+    position: relative;
+    background: #FEFFFE;
+    padding: 15px 9% 50px 9%;
+}
+
+#İÖ{
+    position: relative;
+    bottom: 60px;
+    font-style: oblique;
+}
+
+#tribute-info{
+    text-align: center;
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    text-align: left;
+    margin: 15px;
+}
+
+
+@media screen and (max-width: 500px){
+    #tribute-info{
+        left: 0%;
+        width: 100%;
+}
+}
+
+@media screen and (max-width: 800px){
+
+}
+
